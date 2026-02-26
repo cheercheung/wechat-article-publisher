@@ -41,7 +41,7 @@ git clone https://github.com/cheercheung/wechat-article-publisher.git ~/.opencla
 
 1. **微信公众号 App ID** - 在公众号后台 → 设置与开发 → 基本配置 中获取
 2. **微信公众号 App Secret** - 同上位置获取
-3. **Evolink API Key** - 在 https://evolink.io 注册获取
+3. **Evolink API Key** - 在 https://evolink.ai 注册获取
 
 ### 第二步：创建文章
 
@@ -117,7 +117,7 @@ python3 scripts/publish.py \
 python3 scripts/publish.py \
   --app-id "wxa7c34d64a265f9b2" \
   --app-secret "dcbecfc3f4d1d2ece2ae334955091a92" \
-  --evolink-key "sk-2gKRdGs0ClOCSHsBIVLhPz6SDKrdYj2eSFwTudnDHnVGRizV" \
+  --evolink-key "your_evolink_api_key" \
   --markdown ./openclaw-money-article.md \
   --theme default \
   --author "AI前沿观察" \

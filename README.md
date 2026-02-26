@@ -41,7 +41,7 @@ You need to provide:
 
 1. **WeChat App ID** - From WeChat MP backend → Settings → Basic Configuration
 2. **WeChat App Secret** - Same location as App ID
-3. **Evolink API Key** - Get from https://evolink.io
+3. **Evolink API Key** - Get from https://evolink.ai
 
 ### Step 2: Create Your Article
 
@@ -117,7 +117,7 @@ python3 scripts/publish.py \
 python3 scripts/publish.py \
   --app-id "wxa7c34d64a265f9b2" \
   --app-secret "dcbecfc3f4d1d2ece2ae334955091a92" \
-  --evolink-key "sk-2gKRdGs0ClOCSHsBIVLhPz6SDKrdYj2eSFwTudnDHnVGRizV" \
+  --evolink-key "your_evolink_api_key" \
   --markdown ./openclaw-money-article.md \
   --theme default \
   --author "AI Observer" \
